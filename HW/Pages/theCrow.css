@@ -1,0 +1,59 @@
+
+#page{
+    
+    background-image: url(../Images/crow-g226080c7a_1920.jpg);
+    font-size: 20px;
+    border: 1em outset rgb(176, 137, 59);
+    text-align: left;
+    color: white;
+    background-size: 100% 100%;
+}
+
+#poem{
+
+  font-size: 20px;
+  width: 31em;
+  text-indent: 3em;
+  line-height: 1.5em;
+
+}
+
+#poem>h1{
+    text-align: center;
+    color: rgb(244, 199, 108);
+
+}
+
+#poem>h3{
+  text-align: center;
+  font-style: italic;
+  color: rgb(50, 42, 26);
+  font-size: 30px;
+}
+
+footer{
+  font-size: 20px;
+}
+
+
+  span{
+      font-family: sans-serif;
+      letter-spacing: 2px;
+  }
+
+#poem u{
+    text-decoration: underline;
+    text-decoration-color: rgb(231, 160, 17);
+    text-decoration: none;
+    border-bottom: 2px groove orange;
+}
+#fyi{
+    border-top: 10px double #B0893B;
+    color: #F4C76C;
+}
+
+#footer{ 
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+}
