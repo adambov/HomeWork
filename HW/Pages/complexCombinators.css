@@ -1,0 +1,38 @@
+header {
+    border: 5px solid red;
+}
+
+main {
+    border: 5px solid green;
+}
+
+footer {
+
+    border: 5px solid blue;
+}
+
+header a {
+    color: red;
+}
+
+main a {
+    color: green;
+}
+
+footer a {
+    color: blue;
+
+}
+
+
+a {
+    border-left: 5px dotted;  
+}
+p+a{
+    border-left: none;
+}
+
+p{
+    font-size: 25px;
+}
+

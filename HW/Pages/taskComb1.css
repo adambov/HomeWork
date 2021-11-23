@@ -1,0 +1,12 @@
+header>p+p {
+    background-color: lightgreen;
+}
+
+main>p+p {
+    background-color: lightblue;
+}
+
+.gray1, .gray2 {
+    background-color: lightgray;
+
+}

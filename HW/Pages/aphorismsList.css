@@ -1,0 +1,35 @@
+main{
+    border: 20px #5E6F7D;
+    width: 700px;
+    border: 0.3em solid #c9d1d6;
+    background-color: white;
+    padding: 5px;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    color: #b2babf;
+    text-align: center;
+    font-family: serif;
+    
+
+}
+
+.lightgray {
+    background-color: #5E6F7D;
+    color: #c9d1d6;
+    font-family: serif;
+    padding-bottom: 20px;
+    padding-top: 10px;  
+}
+
+.darkgray{
+    background-color: #41484E;
+    color: #c9d1d6;
+    font-family: serif;
+    padding-bottom: 20px;
+    padding-top: 10px; 
+}
