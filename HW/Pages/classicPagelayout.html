@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>classicPageLayout</title>
+<style>
+		body{
+			margin: 0;
+			font-size: 20px;
+			background-color: #FDAFB1;
+            text-transform: capitalize;
+		}
+		#header,#footer{
+			height: 10vh;
+			margin: 1em;
+			text-align: center;
+			color: #FFF;
+			background-color: #98D1C7;
+            text-transform: capitalize;
+			display: flex;
+			justify-content: center;
+			align-items: center;     
+		}
+		#aside, #article{
+			margin: 1em ;
+            text-transform: capitalize;
+		}
+		#aside{
+			width: 30%;
+			height: 70vh;
+			background-color: #62B7B6;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#article{
+            width: 60%;
+			height: 70vh;
+			background-color: #FA7A7B;
+            color: white;
+        }
+		.img1,.img2,.img3{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+            width: 15vw;
+            height: 15vw;
+            background-color: #D6D5D5;
+
+		}
+        main{
+            display: flex;
+        }
+        
+        .imagesContainer{
+            display: flex;
+			justify-content: center;
+            justify-content:space-evenly;
+            align-content: flex-end;
+        }
+        p3{
+            display: flex;
+			justify-content: center;
+        }
+        
+        
+	</style>
+</head>
+<body>
+	<div id="header"> <p>header</p> </div>
+    <main>
+        <div id="aside"> <p1>aside</p1> </div>
+        
+            <div id="article"> <p3>article</p3> 
+                <div class="imagesContainer">
+                    <div class="img1"> <p2>image</p2> </div>
+                    <div class="img2"> <p2>image</p2> </div>
+                    <div class="img3"> <p2>image</p2> </div>
+                </div>
+            </div>
+        
+    </main>
+	<div id="footer"><p>footer</p></div>
+</body>
+</html>
