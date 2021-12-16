@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicode.org/emoji/charts/full-emoji-list.html">
+    <style>
+       
+        ul{
+            border: 4px outset gray;
+            list-style: none; 
+        }  
+        .emoji-smile::before {
+            content: "😃";
+            
+        }
+        .emoji-sad::before {
+            content: "😥";
+            
+        }
+        .emoji-loudly-crying::before {
+            content: "😭";
+            
+        }
+      
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <h1>My Todo List</h1>
+        <ul class="todoList">
+          <li class="emoji emoji-smile">Learn HTML </li>
+          <li class="emoji emoji-sad">Learn CSS</li>
+          <li class="emoji emoji-loudly-crying">Learn JavaScript</li>
+        </ul>
+      </body>
+</body>
+</html>
