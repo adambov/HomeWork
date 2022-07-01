@@ -1,0 +1,1 @@
+let obj = {firstName, lastName, hairColor}
