@@ -4,23 +4,28 @@
 // Output
 // Print all top integers on the console, separated by a single space.
 /////////////////////////////////
-//1. forof through the arr.
-// let topnum = 0;
-// 2. if index[0] is bigger than all next indexes, index[0] = topnum 
-// and so on this has to be checked for all nums
-//3. print all the index[num] that are bigger that all afterwars
+//let topnum = 0;
+//let topnumbers = [];
+//1. for loop to go through the arr(backwards)!
+// compare the value of each index with the indexes forwards
+// if the value of the index is bigger than the ones before add it in topnumber
+// this created topnumber arr wiht all higher values.
+// now I have to order them by size
+// then I have to remove duplicated values
+
+
 function solve(arr) {
     let topnum = 0;
     let topnumbers = [];
-    for (let i = 0; i <= arr.length; i ++) {
-        let currentElement = arr[i];
-        let isTopInteger = true;
-
-        if (i > i + 1){
-
-        }
-    };
-    // console.log(topnum);
+  for (let index = arr.length; index >= 0; index--) {
+    if (arr[index] >= topnum){
+        topnum = arr[index] ;
+        topnumbers.push(topnum);
+    }
+    
+};
+let newTopnumbers = [...new Set(topnumbers)];
+    console.log(newTopnumbers.reverse());
 };
 
 solve([1, 4, 3, 2]);
