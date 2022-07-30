@@ -1,0 +1,35 @@
+body{
+    background-color: #333333;
+}
+header{
+    text-align:center; 
+    margin-top: 5%; 
+    font-size: 5vw; 
+    color: rgba(123,240,189,255);}
+input{
+    margin-top: 3vw; 
+    margin-left: 10vw;  
+    width: 80vw; 
+    height: 4vw; 
+    border: .3vw solid rgba(123,240,189,255);
+    font-size: 2vw;
+}
+input:hover{
+    border: .7vw solid black;
+    transition: 0.7s;
+}
+button{
+    position: absolute;
+    margin-left: -5.9vw;
+    margin-top: 2.7vw;
+    border-radius: 60%; 
+    width: 6vw; height: 6vw;
+    background-color:rgba(123,240,189,255); 
+    font-size: 1.6vw;
+    padding: 0;
+    border: none;
+}
+button:hover{
+    border: .7vw solid #333333;
+    transition: 0.7s;
+}
