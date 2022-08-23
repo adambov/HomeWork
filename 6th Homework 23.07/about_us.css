@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: myFirstFont;
+    src: url(../myFirstFont/LT_Oksana/LT_Oksana_Light.ttf);
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../mySecondFont/Vrinda_Regular/Vrinda_Regular.ttf);
+}
+nav{
+    background-color: rgba(208,46,52,255);
+    height: 4vmax;
+    color: black;
+    padding: .6vmax;
+}
+ul{
+    display:flex;
+    justify-content: flex-end;
+    align-self: center;
+    column-gap: 5vmax;
+    position: relative;
+    right: 3vmax;
+    font-size: 2.5vmax;
+    font-family: mySecondFont;
+    padding-left: 0;
+}
+a{
+    color: black; 
+}
+h1{
+    text-align: center;
+    font-size: 3vmax;
+    border-bottom: rgba(122,122,122,255) solid 0.2vmax;
+    width: 84vmax;
+    position: relative;
+    left: 7.8vmax;
+    bottom: -2.5vmax;
+    font-family: mySecondFont;
+    font-weight:normal;
+}
+h1>img{
+    position: relative;
+    right: 34.5vmax;
+    vertical-align: bottom;
+    height: 3vmax;
+}
+.fa{
+    background-color: rgba(122,122,122,255);
+    color: white;
+    width: 1.9vmax;
+    height: 1.9vmax;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 9vmax;
+}
+.designers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 1.4vmax;
+    font-weight: 600;
+}
+div>img{
+    width: 15vmax;
+    position: relative;
+    bottom: -5vmax;
+}
+.mathieu>img{
+    height: 19vmax;
+}
+p{
+    position: relative;
+    top: 8vmax;
+}
+.Email{
+    font-size: 1vmax;
+}
+  
