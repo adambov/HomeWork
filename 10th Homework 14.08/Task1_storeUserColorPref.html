@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1_storeUserColorPref</title>
+</head>
+<body>
+    <div class="bgChoice">
+        <h2>Choose background color:</h2>
+        <select class="dropdown">
+          <option value="default">default</option>
+          <option value="#FF0000">red</option>
+          <option value="#00FF00">green</option>
+          <option value="#0000FF">blue</option>
+        </select>
+        <button class="btn">Set BG</button>
+      </div>
+
+      <script>
+
+        let dropdown = document.querySelector('.dropdown');
+        let btn = document.querySelector('.btn');
+        dropdown.addEventListener('change', setColor);
+
+
+        function setColor() {
+            let color = this.value;
+            btn.addEventListener('click', function() {
+                
+                if (color === "default"){
+                    document.body.style.backgroundColor = "white";
+                } else{
+                    document.body.style.backgroundColor = color;             
+            }
+
+           localStorage.setItem('currentColor', color);           
+            
+        });              
+        }
+
+        window.onload = function getColorFromLocalStorage() {
+                    let color = this.value;
+                    console.log(localStorage);
+                    document.body.style.backgroundColor = localStorage.getItem('currentColor');
+           }
+            
+      </script>
+</body>
+</html>
+<!-- Task
+
+You have to store the color selected by the user, so that next time when she enters the site, 
+her chosen colour would be set as page background colour.
+    Implement the task with cookies
+    Implement the task with Local Storage  -->
